@@ -1,0 +1,2 @@
+[console_scripts]
+first-app = src.main:main
