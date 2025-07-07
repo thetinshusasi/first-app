@@ -35,9 +35,12 @@ A Python project with virtual environment and TOML configuration.
    ```
 
 4. **Install dependencies**
+
    ```bash
    pip install -e .
    ```
+
+   **Note:** This project uses `pyproject.toml` for dependency management. The `pip install -e .` command will install all dependencies specified in the TOML file.
 
 ## Usage
 
@@ -77,7 +80,6 @@ first-app/
 │   ├── __init__.py
 │   └── main.py          # Main application
 ├── pyproject.toml       # Project configuration
-├── requirements.txt     # Dependencies
 └── README.md           # This file
 ```
 
