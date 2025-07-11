@@ -1,0 +1,6 @@
+ML Notes
+
+Data Cleaning
+1.  Change content to lower case
+2.  Remove stop words such as " a , and " etc - reduces complexity and smaller dataset  and easier during training
+3. 
