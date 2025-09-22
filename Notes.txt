@@ -3,4 +3,6 @@ ML Notes
 Data Cleaning
 1.  Change content to lower case
 2.  Remove stop words such as " a , and " etc - reduces complexity and smaller dataset  and easier during training
-3. 
+3. Regex expression gotcha
+    3.1. Use raw strings if your data has special chars that could be interpreted as something else Eg : "C:\desktop\notes"
+         can be interpreted as string with new line "\n". but can be prevented using r"C:\desktop\notes"
