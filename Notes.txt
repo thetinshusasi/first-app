@@ -6,3 +6,15 @@ Data Cleaning
 3. Regex expression gotcha
     3.1. Use raw strings if your data has special chars that could be interpreted as something else Eg : "C:\desktop\notes"
          can be interpreted as string with new line "\n". but can be prevented using r"C:\desktop\notes"
+4. Tokenization: Word Tokeniztion, sentence tokenization, char Tokenization, sub sentence tokenization (from nltk.tokenize import word_tokenize, sent_tokenize)
+5. Stemming: where words are reduced to their base form. For example, words like ‘connecting’ or ‘connected’ will be stemmed to the base form ‘connect’. (from nltk.stem import PorterStemmer).
+    Sometimes the base forms are not at all a words
+6. Lemmatization: Where stemming removes the last few characters of a word, lemmatization stems the word to a more meaningful base form and ensures it does not lose it's meaning. 
+    Lemmatization works more intelligently, referencing a pre-defined dictionary containing the context of words and uses this when diminishing the word to the base form. 
+
+
+Types of Tagging
+
+1. Part of speech Tagging
+2. Names Entity Recogniation
+

@@ -160,6 +160,14 @@ cython_debug/
 #  *.iml
 #  *.ipr
 #  *.iws
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+*.code-workspace
 
 # macOS
 .DS_Store
@@ -213,16 +221,70 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
+# Linux
 *~
 
-# Project specific
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+# NLP specific files
+# spaCy models (these are large and should be downloaded separately)
+# en_core_web_sm/
+# en_core_web_md/
+# en_core_web_lg/
+
+# NLTK data (downloaded separately)
+nltk_data/
+
+# Model files and checkpoints
+*.model
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+
+# Data files (uncomment if you don't want to track data)
+# *.csv
+# *.json
+# *.txt
+# *.xlsx
+# *.parquet
+
+# Large datasets
+data/
+datasets/
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
+logs/
 *.log
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Jupyter notebook outputs (optional - uncomment if you want to ignore outputs)
+# *.ipynb
+
+# Cursor IDE specific
+.cursor/
+
+# Project specific
+# Add any project-specific files or directories here
