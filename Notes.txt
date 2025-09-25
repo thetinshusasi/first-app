@@ -13,8 +13,14 @@ Data Cleaning
     Lemmatization works more intelligently, referencing a pre-defined dictionary containing the context of words and uses this when diminishing the word to the base form. 
 
 
-Types of Tagging
+7. Types of Tagging( we are using NLK tool models such as spaCy to do both POS and NER )
 
-1. Part of speech Tagging
-2. Names Entity Recogniation
+1. Part of speech Tagging ( grouping  based on Noun, Pronoun, AJ)
+2. Names Entity Recogniation (Place ,Date, Location, Person)
+
+
+Sentement Analysis
+1. Rules based ( struggles to understand sarcasm or irony)
+2. Transformer based ( Basemodel, specific languaru)
+
 
