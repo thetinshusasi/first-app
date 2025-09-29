@@ -24,3 +24,24 @@ Sentement Analysis
 2. Transformer based ( Basemodel, specific languaru)
 
 
+Text Vectorization s the process of converting unstructured text into numerical representations (vectors) that machine learning models can process.
+Since algorithms can’t directly work with raw text, vectorization provides a way to encode meaning, structure, or statistical properties of text in a mathematical format.
+0.1  Count-Based Methods
+    1. The bag of words
+        1.1 Represents text as a vector of word counts (or frequencies).
+        1.2 Ignores grammar and word order. Example: “dog bites man” and “man bites dog” will produce the same vector.
+        1.3 Useful for simple text classification but limited in capturing semantics.
+
+    2.TF-IDF (Term Frequency–Inverse Document Frequency):
+        2.1 Weights words by how frequently they appear in a document vs. how unique they are across the corpus.
+        2.2 Helps reduce the influence of very common words (like “the”, “is”) while highlighting distinctive terms.
+0.2 Word Embeddings
+0.3. Contextual Embeddings (Deep Learning Based)
+0.4. Sentence & Document Embeddings
+0.5. Hybrid / Advanced Methods
+
+Summary
+BoW / TF-IDF → Simple, interpretable, but limited.
+Word2Vec / GloVe / FastText → Dense, semantic-rich, but context-independent.
+ELMo / BERT family → Context-aware, powerful, state-of-the-art.
+Sentence/Doc Embeddings → Work at higher granularity (sentences, paragraphs, documents).
